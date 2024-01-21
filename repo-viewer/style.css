@@ -1,0 +1,44 @@
+/* style.css */
+
+body {
+    background-color: white;
+    color: black;
+    font-family: Arial, sans-serif;
+}
+
+form {
+    margin: 20px;
+}
+
+footer {
+    background-color: #091113;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+header {
+    background-color: hsl(200, 67%, 4%);
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+
+button {
+    background-color: hsl(120, 20%, 1%); /* Green background color */
+    color: white; /* White text color */
+    padding: 10px 15px; /* Padding around the text */
+    font-size: 16px; /* Font size */
+    border: none; /* Remove border */
+    cursor: pointer; /* Add a pointer cursor on hover */
+    border-radius: 8px; /* Add rounded corners */
+}
+
+button:hover {
+    background-color: hsl(120, 7%, 74%); 
+}
+
